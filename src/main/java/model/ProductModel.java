@@ -36,7 +36,7 @@ public class ProductModel {
 		} finally {
 			try {
 				if (preparedStatement != null)
-					preparedStatement.close();
+					preparedStatement.close();  
 			} finally {
 				if (connection != null)
 					DriverManagerConnectionPool.releaseConnection(connection);
