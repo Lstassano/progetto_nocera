@@ -30,7 +30,7 @@ public class ProductControl extends HttpServlet {
 		model = new ProductModel();
 	}
 	
-	public ProductControl() {
+	public ProductControl() {       
 		super();
 	}
 
