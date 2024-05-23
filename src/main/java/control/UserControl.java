@@ -27,8 +27,10 @@ public class UserControl extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
+    
+    
 	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServletwwdoGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		if (request.getParameter("action") != null && request.getParameter("action").compareTo("ottieni") == 0) {
